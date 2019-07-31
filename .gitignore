@@ -1,0 +1,8 @@
+# python virtual environment
+venv/
+
+*.sqlite3
+
+node_modules/
+
+__pycache__

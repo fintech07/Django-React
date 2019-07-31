@@ -1,0 +1,26 @@
+{
+  "name": "Django-React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:FunnyDeveloper100/Django-React.git",
+  "author": "codemaster08240328 <codemaster08240328@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./project/frontend/src/index.js --output ./project/frontend/static/frontend/main.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "cypress": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
